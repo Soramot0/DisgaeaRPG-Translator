@@ -9,7 +9,7 @@ def main():
     
     print(f"Started execution")
 
-    Config.set_device(device=Device.DMM)
+Config.set_device(device=Device.Android)
     
     unity_helper = UnityHelper()
     
